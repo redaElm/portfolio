@@ -15,7 +15,7 @@ include 'controller.php';
   	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   	<!--design css -->
-  	<link rel="stylesheet" type="text/css" href="css/Design css.css">
+  	<link rel="stylesheet" type="text/css" href="<?php echo base_url('css/Design css.css'); ?>">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
   	<link rel="stylesheet" type="text/css" href="css/preload_css.css">
 
@@ -306,7 +306,7 @@ include 'controller.php';
 		var listItems = $( ".niveau:gt(1)" );
 		//alert( "Index: " + $( ".niveau" ).index( listItems ) );
 		var item = $( ".normal" ).index( $( ".normal:gt(1)" ) );
-		alert(item);
+		//alert(item);
 		$(".normal:gt(0)").addClass('one');
 		$(".normal:gt(1)").addClass('two');
 
