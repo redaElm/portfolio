@@ -1,6 +1,6 @@
 <?php 
 include 'fonction_email.php';
-include 'portfolio.php';
+include 'index.php';
 extract($_GET);//$action & $table &$id
 extract($_POST);
 

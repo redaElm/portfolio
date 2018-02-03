@@ -50,12 +50,12 @@ function ajouter($table,$data=array()){
 }
 
 
-function connecter_db()
+/*function connecter_db()
 {
 	$adresse=mysqli_connect('localhost', 'root', '', 'db') or die("erreur de connexion à la bd") ;
 return $adresse;
 }
-
+*/
 
 
 
